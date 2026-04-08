@@ -1,0 +1,44 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# Keep only the repository READMEs under version control.
+*.md
+!README.md
+!infer/README.md
+
+# Local environments and editor files.
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Common training or inference outputs.
+data/
+model/
+models/
+results/
+output/
+outputs/
+figure/
+figures/
+loss/
+metrics/
+logs/
+tmp/
+temp/
+
+# Common generated artifacts.
+*.log
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.csv
+*.png
+*.pdf
